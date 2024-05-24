@@ -16,11 +16,22 @@ const router = createBrowserRouter([
   {
     path:"/deploy-percobaan/",
     element:<Home></Home>,
+    children:[
+      {
+        path:"/deploy-percobaan/project",
+        element:<Project></Project>
+      },
+      {
+        path:"/deploy-percobaan/about",
+        element:<About></About>
+      },
+      {
+        path:"/deploy-percobaan/contact",
+        element:<Contact></Contact>
+      }
+    ]
     },
-  {
-    path:"/deploy-percobaan/project",
-    element:<Home></Home>,
-    },
+ 
 
  
   
