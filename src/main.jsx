@@ -16,8 +16,13 @@ const router = createBrowserRouter([
   {
     path:"/deploy-percobaan/",
     element:<Home></Home>,
-    
-  },
+    children:
+    {
+      path:"/deploy-percobaan/project",
+      element:<Project></Project>,
+    },
+    }
+  ,
  
   
   
