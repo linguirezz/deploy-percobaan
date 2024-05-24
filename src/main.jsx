@@ -15,20 +15,14 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path:"/deploy-percobaan/",
-    element:<Project></Project>,
+    element:<Home></Home>,
+    children :
+      {
+        path:"/deploy-percobaan/project",
+        element:<Project/>
+      }
   },
-  {
-    path:"/deploy-percobaan/project",
-    element:<Project/>
-  },
-  {
-    path:"/deploy-percobaan/about",
-    element:<About/>
-  },
-  {
-    path:"/deploy-percobaan/contact",
-    element:<Contact/>
-  }
+ 
   
   
      
