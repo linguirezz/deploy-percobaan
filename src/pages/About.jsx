@@ -1,7 +1,7 @@
 
 function about (){
     return (
-        <div className="w-full h-[400px] p-6 border flex justify-between bg-fourth">
+        <div className="w-full h-[400px] p-6 border flex justify-between bg-fourth overflow-hidden">
         
         <div className="w-[60%]">
         <h2 className=" capitalize ">about me</h2>
