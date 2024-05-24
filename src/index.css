@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+   h1{
+    @apply text-[75px] 
+   }
+   h2{
+    @apply text-[36px]
+   }
+   p{
+    @apply text-[14px]
+   }
+   nav{
+    @apply w-full h-[50px]  bg-secondary
+   }
+  
+  }
+@layer components{
+    .nav-child{
+      @apply text-[14px] uppercase font-light hover:cursor-pointer 
+      p-1 active:bg-black active:text-white 
+      active:rounded-md
+      
+    }
+    
+    
+  }
