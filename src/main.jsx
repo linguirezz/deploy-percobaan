@@ -15,7 +15,7 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path:"/deploy-percobaan/",
-    element:<Home></Home>,
+    element:<Project></Project>,
   },
   {
     path:"/deploy-percobaan/project",
